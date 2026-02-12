@@ -97,5 +97,8 @@
    objdump -p <xx.so> | grep -A 1 LOAD
    objdump -p /Users/leedanatech/Downloads/gdx-backend-android-textureview-1.11.0-1/jni/arm64-v8a/libgdx.so | grep -A 1 LOAD
   ```
+
+  ### 打包成aab格式的包 上传给Googe play后台，让后台自动处理
+  - 需要后台配置好Google play的签名验证，否则上传不了aab的包
   
   
